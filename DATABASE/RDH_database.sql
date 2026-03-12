@@ -1,8 +1,9 @@
 /*
 SQLyog Community v8.71 
-MySQL - 5.5.30 : Database - vtjim07_25
+MySQL - 5.5.30 : Database - RDH_database
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -12,9 +13,9 @@ MySQL - 5.5.30 : Database - vtjim07_25
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-CREATE DATABASE /*!32312 IF NOT EXISTS*/`vtjim07_25` /*!40100 DEFAULT CHARACTER SET latin1 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`RDH_database` /*!40100 DEFAULT CHARACTER SET latin1 */;
 
-USE `vtjim07_25`;
+USE `RDH_database`;
 
 /*Table structure for table `master_key_requests` */
 
@@ -91,3 +92,4 @@ insert  into `users`(`id`,`username`,`password_hash`) values (1,'userk','e0bf050
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
 /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
